@@ -2,11 +2,10 @@
   "name": "typrscript-desing-patterns",
   "version": "1.0.0",
   "description": "A collection of design patterns implemented in TypeScript.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "ts-node src/index.ts",
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html",
     "dev": "ts-node-dev --respawn src/index.ts",
     "clean": "rm -rf dist"
   },
