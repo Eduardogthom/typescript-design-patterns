@@ -22,3 +22,7 @@ Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
+
+# Parcel
+.parcel-cache/
+
