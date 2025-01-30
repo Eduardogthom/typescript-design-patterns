@@ -2,8 +2,6 @@
 // Area, Perimeter, Volume
 // Simple function calculateTotalArea
 
-// Interface for a Shape
-
 interface Shape {
   area(): number;
   perimeter(): number;
@@ -46,3 +44,9 @@ console.log('--------- Abstraction - 1 ----------');
 console.log('Circle area', calculateTotalArea(circle));
 console.log('Rectangle area', calculateTotalArea(rectangle));
 console.log('------------------------------------');
+
+/**
+ * The implementation of the Shape when creating the class Circle and Rectangle,
+ * can be considered as an example of polymorphism. 
+ * Polymorphism is the ability of an object to take on many forms.
+ */
